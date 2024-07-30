@@ -1,0 +1,6 @@
+version: '3.9'
+  services:
+    web:
+      image: "darshif5/simple-node-app:v1"
+      ports:
+        - "8081:8081"
